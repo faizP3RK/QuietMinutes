@@ -1,0 +1,41 @@
+# ---- Python / tooling ----
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# ---- NEVER publish meeting data, recordings, logs, or personal settings ----
+*.wav
+*.mp3
+*.m4a
+*.npz
+*.db
+logs/
+backups/
+phase0_out/
+phase*_out/
+phase*_proof/
+MeetingTranscripts/
+config.json
+voiceprints.db
+transcript.*
+notes.md
+segments.json
+speakers.json
+meeting.json
+
+# ---- private planning notes / local assistant settings ----
+local-transcription-tool-brief-v3.md
+.claude/
+CLAUDE.md
+
+# ---- OS / editor ----
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# legacy launcher name (kept locally for existing shortcuts)
+MeetingScriber.bat
